@@ -5,7 +5,7 @@ This repository contains scripts and experiments for learning AI engineering con
 ## Files
 
 - **`structure-data.py`**: The main script for extracting structured data from insurance claim documents (PDF or Image).
-  - Uses Google's `gemini-1.5-pro` model for vision and structured output.
+  - Uses Google's `gemini-2.5-pro` model for vision and structured output.
   - Requires a `.env` file with `GEMINI_API_KEY`.
 - **`gen_test_data.py`**: A helper script to generate synthetic "messy" PDF insurance claims for testing extraction resilience.
 - **`summerize-text.py`**: Script for text summarization experiments.
