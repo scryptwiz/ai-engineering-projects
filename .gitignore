@@ -1,0 +1,6 @@
+.env
+.venv/
+__pycache__/
+*.pdf
+result.json
+temp_page_*.jpg
