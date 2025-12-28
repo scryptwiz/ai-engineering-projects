@@ -12,7 +12,19 @@ This repository contains scripts and experiments for learning AI engineering con
 
 ## Setup
 
-1. **Install Dependencies**:
+1. **Virtual Environment**:
+   It is recommended to use a virtual environment:
+   ```bash
+   python3 -m venv .venv
+   
+   # Mac/Linux
+   source .venv/bin/activate
+
+   # Windows
+   .venv\Scripts\activate
+   ```
+
+2. **Install Dependencies**:
    ```bash
    pip install -r requirements.txt
    brew install poppler  # Required for PDF processing
